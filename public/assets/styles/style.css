@@ -562,7 +562,6 @@ footer {
 .slideUp {
     animation: slide-up .6s ease-in-out forwards;
 }
-
 @keyframes slide-down {
     from {
         top: -200px;
