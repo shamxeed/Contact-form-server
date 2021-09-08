@@ -1,10 +1,23 @@
-# Portfolio  
+# Contact Form Server
 
-> This is a portfolio website built with HTML, CSS, JavaScript &amp; Firebase as a back-end.  
+> This is a tiny nodejs server built for submiting contact form to email using nodemailer and [mailgun](https://mailgun.com).
 
-### Live Demo: &nbsp;  [shamxeed.com](https://shamxeed.com)  
-  
-  ### Preview:  👇🏻  
-    
-    
-![preview](https://github.com/shamxeed/portfolio/blob/master/public/assets/img/site-review.png)
+## How to use
+
+First create account with [mailgun](https://mailgun.com) and obtain your api_key then clone this repository and in the root directory of this project:
+
+- create .env file
+- create variables for:
+  - mailgun api_key,
+  - receiver email
+  - mail domain
+
+then
+
+### npm install
+
+To install required dependencies
+
+### npm run server
+
+To start the server on port 3001
